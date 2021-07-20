@@ -10,16 +10,12 @@ public class MyCat extends Cat
 {
     public void act()
     {
-        if(tired=true)
+        sleep(2);
+        if (isBored())
         {
-         sleep(3);
-         shoutHooray();
-         tired= false;
+            shoutHooray();
         }
-        if(tired=false)
-        {
-           shoutHooray(); 
-        }
+        
         
         
             
